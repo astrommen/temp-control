@@ -1,20 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
 
-class TempControl extends React.Component {
-  render() {
-    return (
-      <div></div>
-    )
-  }
-}
+import App from './App';
+
+import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TempControl />
+    <App />
   </React.StrictMode>
 );
 
